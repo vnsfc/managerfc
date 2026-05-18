@@ -19,7 +19,7 @@ function PaginaDivulgacao() {
       {/* 3. FUNCIONALIDADES */}
       <section className="video-section">
         <video width="100%" controls autoPlay muted loop>
-        <source src="./public/video demonstra.mp4" type="video/mp4" />
+        <source src=".\video demonstra.mp4" type="video/mp4" />
         O seu navegador não suporta a tag de vídeo.
         </video>
       </section>
