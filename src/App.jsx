@@ -17,6 +17,17 @@ function PaginaDivulgacao() {
       </section>
 
       {/* 3. FUNCIONALIDADES */}
+      <section className="features-section">
+        <h2>Funcionalidades</h2>
+        <ul>
+          <li>Simulação de partidas em tempo real</li>
+          <li>Gestão de equipes e jogadores</li>
+          <li>Processamento de estatísticas detalhadas</li>
+          <li>Criação e gerenciamento de campeonatos</li>
+        </ul>
+      </section>
+
+      {/* 4. VÍDEO */}
       <section className="video-section">
         <video width="100%" controls autoPlay muted loop>
         <source src=".\video demonstra.mp4" type="video/mp4" />
@@ -24,7 +35,7 @@ function PaginaDivulgacao() {
         </video>
       </section>
 
-      {/* 4. LINKS E RECURSOS */}
+      {/* 5. LINKS E RECURSOS */}
       <section className="resources-section">
         <h2>Recursos e Downloads</h2>
         <div className="buttons-container">
@@ -35,7 +46,7 @@ function PaginaDivulgacao() {
             Ler Relatório Completo
           </a>
           <a href="https://youtu.be/uEbkA52vFp4" target="_blank" rel="noreferrer" className="btn-link video">
-            Assistir Demonstração no YouTube
+            Assistir Vídeo Completo no YouTube
           </a>
         </div>
       </section>
